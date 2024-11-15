@@ -1,4 +1,4 @@
-const calcAverage = (a,b,c) => (a+b+c)/3;
+const calcAverage = (a,b,c) => (a+b+c)/3;//Arrow function
 //console.log(calcAverage(3,4,5));
 
 //test1
@@ -6,7 +6,7 @@ const scoreDolphins = calcAverage(4,2,71);
 const scoreKoalas = calcAverage(65,54,49);
 
 
-const checkWinner = function(avgDolphins, avgKoalas){
+const checkWinner = function(avgDolphins, avgKoalas){ //function expression
           if(avgDolphins>=2*avgKoalas){
                     console.log("Dolphin win")
           }
